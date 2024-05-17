@@ -18,14 +18,14 @@ We introduce MOMENT, a family of open-source foundation models for general-purpo
 
 Install the package using:
 ```bash
-pip install git+https://github.com/dafmdev/moment_timeseries.git
+pip install git+https://github.com/dafmdev/firetimeseries.git
 ```
 
 To load the pre-trained model for one of the tasks, use one of the following code snippets:
 
 **Forecasting**
 ```python
-from moment_timeseries import MOMENTPipeline
+from firemoment import MOMENTPipeline
 
 model = MOMENTPipeline.from_pretrained(
     "AutonLab/MOMENT-1-large", 
@@ -39,7 +39,7 @@ model.init()
 
 **Classification**
 ```python
-from moment_timeseries import MOMENTPipeline
+from firemoment import MOMENTPipeline
 
 model = MOMENTPipeline.from_pretrained(
     "AutonLab/MOMENT-1-large", 
@@ -54,7 +54,7 @@ model.init()
 
 **Anomaly Detection, Imputation, and Pre-training**
 ```python
-from moment_timeseries import MOMENTPipeline
+from firemoment import MOMENTPipeline
 
 model = MOMENTPipeline.from_pretrained(
     "AutonLab/MOMENT-1-large", 
@@ -65,7 +65,7 @@ mode.init()
 
 **Representation Learning**
 ```python
-from moment_timeseries import MOMENTPipeline
+from firemoment import MOMENTPipeline
 
 model = MOMENTPipeline.from_pretrained(
     "AutonLab/MOMENT-1-large", 
