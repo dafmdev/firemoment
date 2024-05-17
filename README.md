@@ -18,7 +18,7 @@ We introduce MOMENT, a family of open-source foundation models for general-purpo
 
 Install the package using:
 ```bash
-pip install git+https://github.com/moment-timeseries-foundation-model/moment.git
+pip install git+https://github.com/dafmdev/moment_timeseries.git
 ```
 
 To load the pre-trained model for one of the tasks, use one of the following code snippets:
